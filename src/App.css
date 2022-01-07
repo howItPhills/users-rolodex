@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Bigelow Rules";
+  font-size: 72px;
+  padding-top: 5px;
+  color: rgb(50, 50, 192);
 }
