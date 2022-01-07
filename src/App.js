@@ -36,7 +36,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Monsters-Rolodex</h1>
+        <h1>Monsters Rolodex</h1>
         <SearchBox placeholder='search user' changeHandler={this.onUserSearch} />
         <CardList users={filteredUsers} />
       </div>
